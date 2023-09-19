@@ -71,5 +71,9 @@
 # export ratio=$2
 # export type=$3
 
-CUDA_VISIBLE_DEVICES=$1 python3 main_mtl.py \
-    --evaluate checkpoint/new_multi_11/prune/slr_retrain/config_$ratio/config_$ratio\_$type\_Allw18lr0.01Rlr0.001_51iter.model | tee log/eval/eval_$ratio\_$type\_Allw18lr0.01Rlr0.001.model
+# CUDA_VISIBLE_DEVICES=$1 python3 main_mtl.py \
+#     --evaluate checkpoint/new_multi_11/prune/slr_retrain/config_$ratio/config_$ratio\_$type\_Allw18lr0.01Rlr0.001_51iter.model | tee log/eval/eval_$ratio\_$type\_Allw18lr0.01Rlr0.001.model
+
+
+export path=$2      # model path
+CUDA_VISIBLE_DEVICES=$1 python3 main_mtl.py --evaluate $path
