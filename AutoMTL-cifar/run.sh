@@ -75,5 +75,6 @@
 #     --evaluate checkpoint/new_multi_11/prune/slr_retrain/config_$ratio/config_$ratio\_$type\_Allw18lr0.01Rlr0.001_51iter.model | tee log/eval/eval_$ratio\_$type\_Allw18lr0.01Rlr0.001.model
 
 
+### models' link: https://drive.google.com/drive/folders/1_m7UXW9gCMj98CCYyB80DqpzZEOfBIP1?usp=sharing
 export path=$2      # model path
 CUDA_VISIBLE_DEVICES=$1 python3 main_mtl.py --evaluate $path
