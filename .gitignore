@@ -1,0 +1,13 @@
+**/__pycache__
+**/data
+**/.vscode
+**/pytorch-tiny-imagenet
+**/SLR-Video
+
+**/check
+**/checkpoint
+**/log
+**/tmp_result
+
+**/result/post_train_51_shrd0New_dcy2000_30000iter
+**/tmp.ipynb

@@ -1,0 +1,353 @@
+---------------
+Namespace(M=300, admm_epoch=1, admm_train=False, alter_iters=20000, alter_model=None, alter_train=False, arch='adashare', baseline=None, batch_size=256, combine_progressive=False, config_file='config_0.5', decay_lr_freq=4000, enable_wandb=False, epochs=100, evaluate='checkpoint/CityScapes.model', ext='', initial_s=0.01, lr=0.001, lr_scheduler='default', masked_retrain=False, max_step=6000, optimization='savlr', post_iters=30000, post_lr=0.001, post_train=False, pretrain=False, pretrain_iters=10000, pretrain_model=None, print_freq=100, prune_lr=0.001, r=0.1, reload_policy=None, retrain_epochs=20, rho=0.1, rho_num=1, save_dir='multi', seed=42, shared=0, slr_model=None, slr_prune=False, sparsity_type='irregular', visualize=False)
+---------------
+[Iter 1 Task segm] Val Loss: 0.2796
+{'mIoU': 0.4282, 'Pixel Acc': 0.7482, 'cmp': 0.0935}
+[Iter 1 Task dept] Val Loss: 0.0173
+{'abs_err': 0.0184, 'rel_err': 0.3374, 'sigma_1.25': 70.0024, 'sigma_1.25^2': 86.6344, 'sigma_1.25^3': 93.4961, 'cmp': 0.1647}
+======================================================================
+|||||||||||||| OVERALL |||||||||||||||
+Sparsity at net.0.taskOp.segment_semantic.weight | Weights: 9408, After pruning: 9408, %: 1.000, sparsity: 0.000
+Sparsity at net.0.taskOp.depth_zbuffer.weight | Weights: 9408, After pruning: 9408, %: 1.000, sparsity: 0.000
+Sparsity at net.4.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.4.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.7.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.7.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.11.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.11.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.14.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.14.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.18.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.18.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.21.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.25.taskOp.segment_semantic.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.25.taskOp.depth_zbuffer.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.27.taskOp.segment_semantic.weight | Weights: 73728, After pruning: 73728, %: 1.000, sparsity: 0.000
+Sparsity at net.27.taskOp.depth_zbuffer.weight | Weights: 73728, After pruning: 73728, %: 1.000, sparsity: 0.000
+Sparsity at net.30.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.30.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.34.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.37.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.37.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.41.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.41.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.44.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147454, %: 1.000, sparsity: 0.000
+Sparsity at net.48.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.48.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147452, %: 1.000, sparsity: 0.000
+Sparsity at net.51.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.55.taskOp.segment_semantic.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.55.dsOp.depth_zbuffer.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.57.taskOp.segment_semantic.weight | Weights: 294912, After pruning: 294912, %: 1.000, sparsity: 0.000
+Sparsity at net.57.dsOp.depth_zbuffer.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.60.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.64.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.64.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.67.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.67.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.71.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.71.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.74.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.74.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589822, %: 1.000, sparsity: 0.000
+Sparsity at net.78.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.81.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.81.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.88.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589811, %: 1.000, sparsity: 0.000
+Sparsity at net.92.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.95.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.95.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.99.taskOp.segment_semantic.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.99.dsOp.depth_zbuffer.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.101.dsOp.segment_semantic.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.101.taskOp.depth_zbuffer.weight | Weights: 1179648, After pruning: 1179648, %: 1.000, sparsity: 0.000
+Sparsity at net.104.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.104.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359295, %: 1.000, sparsity: 0.000
+Sparsity at net.108.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359280, %: 1.000, sparsity: 0.000
+Sparsity at net.111.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.111.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.115.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.118.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.118.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359275, %: 1.000, sparsity: 0.000
+overal compression rate is 1.0000018160691897
+!!!!!!!!!!!! Compression Total| total weights: 32487808, total nonzeros: 32487749
+|||||||||||||| SPECIFIC |||||||||||||||
+
+-------------------->>>> segment_semantic
+Sparsity at headsDict.segment_semantic.fc1.conv1.weight | Weights: 4718592, After pruning: 4718494, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc1.conv2.weight | Weights: 1048576, After pruning: 1048556, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc1.conv3.weight | Weights: 19456, After pruning: 19455, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc2.conv1.weight | Weights: 4718592, After pruning: 4718464, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc2.conv2.weight | Weights: 1048576, After pruning: 1048553, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc2.conv3.weight | Weights: 19456, After pruning: 19455, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc3.conv1.weight | Weights: 4718592, After pruning: 4718445, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc3.conv2.weight | Weights: 1048576, After pruning: 1048558, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc3.conv3.weight | Weights: 19456, After pruning: 19456, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc4.conv1.weight | Weights: 4718592, After pruning: 4718451, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc4.conv2.weight | Weights: 1048576, After pruning: 1048548, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.segment_semantic.fc4.conv3.weight | Weights: 19456, After pruning: 19455, %: 1.000, sparsity: 0.000
+Sparsity at net.0.taskOp.segment_semantic.weight | Weights: 9408, After pruning: 9408, %: 1.000, sparsity: 0.000
+Sparsity at net.0.dsOp.segment_semantic.0.weight | Weights: 192, After pruning: 192, %: 1.000, sparsity: 0.000
+Sparsity at net.0.dsOp.segment_semantic.1.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.1.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.4.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.5.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.7.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.8.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.11.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.12.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.14.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.15.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.18.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.19.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.21.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.22.taskOp.segment_semantic.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.25.taskOp.segment_semantic.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.25.dsOp.segment_semantic.0.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.25.dsOp.segment_semantic.1.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.26.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.27.taskOp.segment_semantic.weight | Weights: 73728, After pruning: 73728, %: 1.000, sparsity: 0.000
+Sparsity at net.27.dsOp.segment_semantic.0.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.27.dsOp.segment_semantic.1.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.28.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.30.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.31.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.34.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.35.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.37.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.38.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.41.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.42.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.44.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.45.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.48.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.49.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.51.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.52.taskOp.segment_semantic.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.55.taskOp.segment_semantic.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.55.dsOp.segment_semantic.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.55.dsOp.segment_semantic.1.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.56.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.57.taskOp.segment_semantic.weight | Weights: 294912, After pruning: 294912, %: 1.000, sparsity: 0.000
+Sparsity at net.57.dsOp.segment_semantic.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.57.dsOp.segment_semantic.1.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.58.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.60.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.61.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.64.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.65.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.67.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.68.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.71.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.72.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.74.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.75.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.78.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.79.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.81.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.82.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.85.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.86.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.88.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589811, %: 1.000, sparsity: 0.000
+Sparsity at net.89.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.92.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.93.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.95.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.96.taskOp.segment_semantic.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.99.taskOp.segment_semantic.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.99.dsOp.segment_semantic.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.99.dsOp.segment_semantic.1.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.100.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.101.taskOp.segment_semantic.weight | Weights: 1179648, After pruning: 1179648, %: 1.000, sparsity: 0.000
+Sparsity at net.101.dsOp.segment_semantic.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.101.dsOp.segment_semantic.1.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.102.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.104.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.105.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.108.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359295, %: 1.000, sparsity: 0.000
+Sparsity at net.109.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.111.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.112.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.115.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.116.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.118.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.119.taskOp.segment_semantic.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+overal compression rate is 1.0000138491322
+!!!!!!!!!!!! Compression Total| total weights: 44768768, total nonzeros: 44768148
+
+-------------------->>>> depth_zbuffer
+Sparsity at headsDict.depth_zbuffer.fc1.conv1.weight | Weights: 4718592, After pruning: 4718458, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc1.conv2.weight | Weights: 1048576, After pruning: 1048537, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc1.conv3.weight | Weights: 1024, After pruning: 1024, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc2.conv1.weight | Weights: 4718592, After pruning: 4718456, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc2.conv2.weight | Weights: 1048576, After pruning: 1048540, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc2.conv3.weight | Weights: 1024, After pruning: 1024, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc3.conv1.weight | Weights: 4718592, After pruning: 4718455, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc3.conv2.weight | Weights: 1048576, After pruning: 1048545, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc3.conv3.weight | Weights: 1024, After pruning: 1024, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc4.conv1.weight | Weights: 4718592, After pruning: 4718407, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc4.conv2.weight | Weights: 1048576, After pruning: 1048536, %: 1.000, sparsity: 0.000
+Sparsity at headsDict.depth_zbuffer.fc4.conv3.weight | Weights: 1024, After pruning: 1024, %: 1.000, sparsity: 0.000
+Sparsity at net.0.taskOp.depth_zbuffer.weight | Weights: 9408, After pruning: 9408, %: 1.000, sparsity: 0.000
+Sparsity at net.0.dsOp.depth_zbuffer.0.weight | Weights: 192, After pruning: 192, %: 1.000, sparsity: 0.000
+Sparsity at net.0.dsOp.depth_zbuffer.1.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.1.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.4.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.5.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.7.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.8.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.11.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.12.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.14.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.15.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.18.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.19.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.21.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.22.taskOp.depth_zbuffer.weight | Weights: 64, After pruning: 64, %: 1.000, sparsity: 0.000
+Sparsity at net.25.taskOp.depth_zbuffer.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.25.dsOp.depth_zbuffer.0.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.25.dsOp.depth_zbuffer.1.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.26.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.27.taskOp.depth_zbuffer.weight | Weights: 73728, After pruning: 73728, %: 1.000, sparsity: 0.000
+Sparsity at net.27.dsOp.depth_zbuffer.0.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.27.dsOp.depth_zbuffer.1.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.28.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.30.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.31.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.34.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.35.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.37.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.38.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.41.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.42.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.44.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147454, %: 1.000, sparsity: 0.000
+Sparsity at net.45.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.48.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147452, %: 1.000, sparsity: 0.000
+Sparsity at net.49.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.51.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.52.taskOp.depth_zbuffer.weight | Weights: 128, After pruning: 128, %: 1.000, sparsity: 0.000
+Sparsity at net.55.taskOp.depth_zbuffer.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.55.dsOp.depth_zbuffer.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.55.dsOp.depth_zbuffer.1.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.56.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.57.taskOp.depth_zbuffer.weight | Weights: 294912, After pruning: 294912, %: 1.000, sparsity: 0.000
+Sparsity at net.57.dsOp.depth_zbuffer.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.57.dsOp.depth_zbuffer.1.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.58.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.60.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.61.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.64.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.65.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.67.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.68.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.71.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.72.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.74.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589822, %: 1.000, sparsity: 0.000
+Sparsity at net.75.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.78.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.79.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.81.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.82.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.85.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.86.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.88.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.89.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.92.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.93.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.95.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.96.taskOp.depth_zbuffer.weight | Weights: 256, After pruning: 256, %: 1.000, sparsity: 0.000
+Sparsity at net.99.taskOp.depth_zbuffer.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.99.dsOp.depth_zbuffer.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.99.dsOp.depth_zbuffer.1.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.100.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.101.taskOp.depth_zbuffer.weight | Weights: 1179648, After pruning: 1179648, %: 1.000, sparsity: 0.000
+Sparsity at net.101.dsOp.depth_zbuffer.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.101.dsOp.depth_zbuffer.1.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.102.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.104.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359295, %: 1.000, sparsity: 0.000
+Sparsity at net.105.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.108.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359280, %: 1.000, sparsity: 0.000
+Sparsity at net.109.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.111.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.112.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.115.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.116.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+Sparsity at net.118.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359275, %: 1.000, sparsity: 0.000
+Sparsity at net.119.taskOp.depth_zbuffer.weight | Weights: 512, After pruning: 512, %: 1.000, sparsity: 0.000
+overal compression rate is 1.0000175414039782
+!!!!!!!!!!!! Compression Total| total weights: 44695040, total nonzeros: 44694256
+
+ ||||| Summary: {'segment_semantic': 1.0000138491322, 'depth_zbuffer': 1.0000175414039782}
+======================================================================== 
+
+|||||||||||||| specific policy |||||||||||||||
+
+-------------------->>>> segment_semantic
+Sparsity at net.0.taskOp.segment_semantic.weight | Weights: 9408, After pruning: 9408, %: 1.000, sparsity: 0.000
+Sparsity at net.4.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.7.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.11.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.14.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.18.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.21.taskOp.segment_semantic.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.25.taskOp.segment_semantic.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.27.taskOp.segment_semantic.weight | Weights: 73728, After pruning: 73728, %: 1.000, sparsity: 0.000
+Sparsity at net.30.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.34.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.37.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.41.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.48.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.51.taskOp.segment_semantic.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.55.taskOp.segment_semantic.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.57.taskOp.segment_semantic.weight | Weights: 294912, After pruning: 294912, %: 1.000, sparsity: 0.000
+Sparsity at net.60.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.64.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.67.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.71.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.74.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.81.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.88.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589811, %: 1.000, sparsity: 0.000
+Sparsity at net.95.taskOp.segment_semantic.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.99.taskOp.segment_semantic.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.101.dsOp.segment_semantic.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.104.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.111.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.115.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.118.taskOp.segment_semantic.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+overal compression rate is 1.0000008154133189
+!!!!!!!!!!!! Compression Total| total weights: 15942848, total nonzeros: 15942835
+
+-------------------->>>> depth_zbuffer
+Sparsity at net.0.taskOp.depth_zbuffer.weight | Weights: 9408, After pruning: 9408, %: 1.000, sparsity: 0.000
+Sparsity at net.4.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.7.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.11.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.14.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.18.taskOp.depth_zbuffer.weight | Weights: 36864, After pruning: 36864, %: 1.000, sparsity: 0.000
+Sparsity at net.25.taskOp.depth_zbuffer.weight | Weights: 8192, After pruning: 8192, %: 1.000, sparsity: 0.000
+Sparsity at net.27.taskOp.depth_zbuffer.weight | Weights: 73728, After pruning: 73728, %: 1.000, sparsity: 0.000
+Sparsity at net.30.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.37.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.41.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147456, %: 1.000, sparsity: 0.000
+Sparsity at net.44.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147454, %: 1.000, sparsity: 0.000
+Sparsity at net.48.taskOp.depth_zbuffer.weight | Weights: 147456, After pruning: 147452, %: 1.000, sparsity: 0.000
+Sparsity at net.55.dsOp.depth_zbuffer.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.57.dsOp.depth_zbuffer.0.weight | Weights: 32768, After pruning: 32768, %: 1.000, sparsity: 0.000
+Sparsity at net.64.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.67.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.71.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.74.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589822, %: 1.000, sparsity: 0.000
+Sparsity at net.78.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.81.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.92.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.95.taskOp.depth_zbuffer.weight | Weights: 589824, After pruning: 589824, %: 1.000, sparsity: 0.000
+Sparsity at net.99.dsOp.depth_zbuffer.0.weight | Weights: 131072, After pruning: 131072, %: 1.000, sparsity: 0.000
+Sparsity at net.101.taskOp.depth_zbuffer.weight | Weights: 1179648, After pruning: 1179648, %: 1.000, sparsity: 0.000
+Sparsity at net.104.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359295, %: 1.000, sparsity: 0.000
+Sparsity at net.108.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359280, %: 1.000, sparsity: 0.000
+Sparsity at net.111.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359296, %: 1.000, sparsity: 0.000
+Sparsity at net.118.taskOp.depth_zbuffer.weight | Weights: 2359296, After pruning: 2359275, %: 1.000, sparsity: 0.000
+overal compression rate is 1.000002780310614
+!!!!!!!!!!!! Compression Total| total weights: 16544960, total nonzeros: 16544914
+
+ ||||| Summary: {'segment_semantic': 1.0000008154133189, 'depth_zbuffer': 1.000002780310614}
+======================================================================== 
+

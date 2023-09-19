@@ -1,0 +1,720 @@
+// Policy
+digraph {
+	subgraph cluster_L0 {
+		node [rank=same]
+		rankdir=LR
+		L0B0 [label=Shared]
+		L0B1 [label=Specific]
+		L0B2 [label=Skip]
+	}
+	subgraph cluster_L1 {
+		node [rank=same]
+		rankdir=LR
+		L1B0 [label=Shared]
+		L1B1 [label=Specific]
+		L1B2 [label=Skip]
+	}
+	subgraph cluster_L2 {
+		node [rank=same]
+		rankdir=LR
+		L2B0 [label=Shared]
+		L2B1 [label=Specific]
+		L2B2 [label=Skip]
+	}
+	subgraph cluster_L3 {
+		node [rank=same]
+		rankdir=LR
+		L3B0 [label=Shared]
+		L3B1 [label=Specific]
+		L3B2 [label=Skip]
+	}
+	subgraph cluster_L4 {
+		node [rank=same]
+		rankdir=LR
+		L4B0 [label=Shared]
+		L4B1 [label=Specific]
+		L4B2 [label=Skip]
+	}
+	subgraph cluster_L5 {
+		node [rank=same]
+		rankdir=LR
+		L5B0 [label=Shared]
+		L5B1 [label=Specific]
+		L5B2 [label=Skip]
+	}
+	subgraph cluster_L6 {
+		node [rank=same]
+		rankdir=LR
+		L6B0 [label=Shared]
+		L6B1 [label=Specific]
+		L6B2 [label=Skip]
+	}
+	subgraph cluster_L7 {
+		node [rank=same]
+		rankdir=LR
+		L7B0 [label=Shared]
+		L7B1 [label=Specific]
+		L7B2 [label=Skip]
+	}
+	subgraph cluster_L8 {
+		node [rank=same]
+		rankdir=LR
+		L8B0 [label=Shared]
+		L8B1 [label=Specific]
+		L8B2 [label=Skip]
+	}
+	subgraph cluster_L9 {
+		node [rank=same]
+		rankdir=LR
+		L9B0 [label=Shared]
+		L9B1 [label=Specific]
+		L9B2 [label=Skip]
+	}
+	subgraph cluster_L10 {
+		node [rank=same]
+		rankdir=LR
+		L10B0 [label=Shared]
+		L10B1 [label=Specific]
+		L10B2 [label=Skip]
+	}
+	subgraph cluster_L11 {
+		node [rank=same]
+		rankdir=LR
+		L11B0 [label=Shared]
+		L11B1 [label=Specific]
+		L11B2 [label=Skip]
+	}
+	subgraph cluster_L12 {
+		node [rank=same]
+		rankdir=LR
+		L12B0 [label=Shared]
+		L12B1 [label=Specific]
+		L12B2 [label=Skip]
+	}
+	subgraph cluster_L13 {
+		node [rank=same]
+		rankdir=LR
+		L13B0 [label=Shared]
+		L13B1 [label=Specific]
+		L13B2 [label=Skip]
+	}
+	subgraph cluster_L14 {
+		node [rank=same]
+		rankdir=LR
+		L14B0 [label=Shared]
+		L14B1 [label=Specific]
+		L14B2 [label=Skip]
+	}
+	subgraph cluster_L15 {
+		node [rank=same]
+		rankdir=LR
+		L15B0 [label=Shared]
+		L15B1 [label=Specific]
+		L15B2 [label=Skip]
+	}
+	subgraph cluster_L16 {
+		node [rank=same]
+		rankdir=LR
+		L16B0 [label=Shared]
+		L16B1 [label=Specific]
+		L16B2 [label=Skip]
+	}
+	subgraph cluster_L17 {
+		node [rank=same]
+		rankdir=LR
+		L17B0 [label=Shared]
+		L17B1 [label=Specific]
+		L17B2 [label=Skip]
+	}
+	subgraph cluster_L18 {
+		node [rank=same]
+		rankdir=LR
+		L18B0 [label=Shared]
+		L18B1 [label=Specific]
+		L18B2 [label=Skip]
+	}
+	subgraph cluster_L19 {
+		node [rank=same]
+		rankdir=LR
+		L19B0 [label=Shared]
+		L19B1 [label=Specific]
+		L19B2 [label=Skip]
+	}
+	subgraph cluster_L20 {
+		node [rank=same]
+		rankdir=LR
+		L20B0 [label=Shared]
+		L20B1 [label=Specific]
+		L20B2 [label=Skip]
+	}
+	subgraph cluster_L21 {
+		node [rank=same]
+		rankdir=LR
+		L21B0 [label=Shared]
+		L21B1 [label=Specific]
+		L21B2 [label=Skip]
+	}
+	subgraph cluster_L22 {
+		node [rank=same]
+		rankdir=LR
+		L22B0 [label=Shared]
+		L22B1 [label=Specific]
+		L22B2 [label=Skip]
+	}
+	subgraph cluster_L23 {
+		node [rank=same]
+		rankdir=LR
+		L23B0 [label=Shared]
+		L23B1 [label=Specific]
+		L23B2 [label=Skip]
+	}
+	subgraph cluster_L24 {
+		node [rank=same]
+		rankdir=LR
+		L24B0 [label=Shared]
+		L24B1 [label=Specific]
+		L24B2 [label=Skip]
+	}
+	subgraph cluster_L25 {
+		node [rank=same]
+		rankdir=LR
+		L25B0 [label=Shared]
+		L25B1 [label=Specific]
+		L25B2 [label=Skip]
+	}
+	subgraph cluster_L26 {
+		node [rank=same]
+		rankdir=LR
+		L26B0 [label=Shared]
+		L26B1 [label=Specific]
+		L26B2 [label=Skip]
+	}
+	subgraph cluster_L27 {
+		node [rank=same]
+		rankdir=LR
+		L27B0 [label=Shared]
+		L27B1 [label=Specific]
+		L27B2 [label=Skip]
+	}
+	subgraph cluster_L28 {
+		node [rank=same]
+		rankdir=LR
+		L28B0 [label=Shared]
+		L28B1 [label=Specific]
+		L28B2 [label=Skip]
+	}
+	subgraph cluster_L29 {
+		node [rank=same]
+		rankdir=LR
+		L29B0 [label=Shared]
+		L29B1 [label=Specific]
+		L29B2 [label=Skip]
+	}
+	subgraph cluster_L30 {
+		node [rank=same]
+		rankdir=LR
+		L30B0 [label=Shared]
+		L30B1 [label=Specific]
+		L30B2 [label=Skip]
+	}
+	subgraph cluster_L31 {
+		node [rank=same]
+		rankdir=LR
+		L31B0 [label=Shared]
+		L31B1 [label=Specific]
+		L31B2 [label=Skip]
+	}
+	subgraph cluster_L32 {
+		node [rank=same]
+		rankdir=LR
+		L32B0 [label=Shared]
+		L32B1 [label=Specific]
+		L32B2 [label=Skip]
+	}
+	subgraph cluster_L33 {
+		node [rank=same]
+		rankdir=LR
+		L33B0 [label=Shared]
+		L33B1 [label=Specific]
+		L33B2 [label=Skip]
+	}
+	subgraph cluster_L34 {
+		node [rank=same]
+		rankdir=LR
+		L34B0 [label=Shared]
+		L34B1 [label=Specific]
+		L34B2 [label=Skip]
+	}
+	subgraph cluster_L35 {
+		node [rank=same]
+		rankdir=LR
+		L35B0 [label=Shared]
+		L35B1 [label=Specific]
+		L35B2 [label=Skip]
+	}
+	subgraph cluster_L36 {
+		node [rank=same]
+		rankdir=LR
+		L36B0 [label=Shared]
+		L36B1 [label=Specific]
+		L36B2 [label=Skip]
+	}
+	subgraph cluster_L37 {
+		node [rank=same]
+		rankdir=LR
+		L37B0 [label=Shared]
+		L37B1 [label=Specific]
+		L37B2 [label=Skip]
+	}
+	subgraph cluster_L38 {
+		node [rank=same]
+		rankdir=LR
+		L38B0 [label=Shared]
+		L38B1 [label=Specific]
+		L38B2 [label=Skip]
+	}
+	subgraph cluster_L39 {
+		node [rank=same]
+		rankdir=LR
+		L39B0 [label=Shared]
+		L39B1 [label=Specific]
+		L39B2 [label=Skip]
+	}
+	subgraph cluster_L40 {
+		node [rank=same]
+		rankdir=LR
+		L40B0 [label=Shared]
+		L40B1 [label=Specific]
+		L40B2 [label=Skip]
+	}
+	subgraph cluster_L41 {
+		node [rank=same]
+		rankdir=LR
+		L41B0 [label=Shared]
+		L41B1 [label=Specific]
+		L41B2 [label=Skip]
+	}
+	subgraph cluster_L42 {
+		node [rank=same]
+		rankdir=LR
+		L42B0 [label=Shared]
+		L42B1 [label=Specific]
+		L42B2 [label=Skip]
+	}
+	subgraph cluster_L43 {
+		node [rank=same]
+		rankdir=LR
+		L43B0 [label=Shared]
+		L43B1 [label=Specific]
+		L43B2 [label=Skip]
+	}
+	subgraph cluster_L44 {
+		node [rank=same]
+		rankdir=LR
+		L44B0 [label=Shared]
+		L44B1 [label=Specific]
+		L44B2 [label=Skip]
+	}
+	subgraph cluster_L45 {
+		node [rank=same]
+		rankdir=LR
+		L45B0 [label=Shared]
+		L45B1 [label=Specific]
+		L45B2 [label=Skip]
+	}
+	subgraph cluster_L46 {
+		node [rank=same]
+		rankdir=LR
+		L46B0 [label=Shared]
+		L46B1 [label=Specific]
+		L46B2 [label=Skip]
+	}
+	subgraph cluster_L47 {
+		node [rank=same]
+		rankdir=LR
+		L47B0 [label=Shared]
+		L47B1 [label=Specific]
+		L47B2 [label=Skip]
+	}
+	subgraph cluster_L48 {
+		node [rank=same]
+		rankdir=LR
+		L48B0 [label=Shared]
+		L48B1 [label=Specific]
+		L48B2 [label=Skip]
+	}
+	subgraph cluster_L49 {
+		node [rank=same]
+		rankdir=LR
+		L49B0 [label=Shared]
+		L49B1 [label=Specific]
+		L49B2 [label=Skip]
+	}
+	subgraph cluster_L50 {
+		node [rank=same]
+		rankdir=LR
+		L50B0 [label=Shared]
+		L50B1 [label=Specific]
+		L50B2 [label=Skip]
+	}
+	subgraph cluster_L51 {
+		node [rank=same]
+		rankdir=LR
+		L51B0 [label=Shared]
+		L51B1 [label=Specific]
+		L51B2 [label=Skip]
+	}
+	subgraph cluster_L52 {
+		node [rank=same]
+		rankdir=LR
+		L52B0 [label=Shared]
+		L52B1 [label=Specific]
+		L52B2 [label=Skip]
+	}
+	subgraph cluster_L53 {
+		node [rank=same]
+		rankdir=LR
+		L53B0 [label=Shared]
+		L53B1 [label=Specific]
+		L53B2 [label=Skip]
+	}
+	subgraph cluster_L54 {
+		node [rank=same]
+		rankdir=LR
+		L54B0 [label=Shared]
+		L54B1 [label=Specific]
+		L54B2 [label=Skip]
+	}
+	subgraph cluster_L55 {
+		node [rank=same]
+		rankdir=LR
+		L55B0 [label=Shared]
+		L55B1 [label=Specific]
+		L55B2 [label=Skip]
+	}
+	subgraph cluster_L56 {
+		node [rank=same]
+		rankdir=LR
+		L56B0 [label=Shared]
+		L56B1 [label=Specific]
+		L56B2 [label=Skip]
+	}
+	subgraph cluster_L57 {
+		node [rank=same]
+		rankdir=LR
+		L57B0 [label=Shared]
+		L57B1 [label=Specific]
+		L57B2 [label=Skip]
+	}
+	subgraph cluster_L58 {
+		node [rank=same]
+		rankdir=LR
+		L58B0 [label=Shared]
+		L58B1 [label=Specific]
+		L58B2 [label=Skip]
+	}
+	subgraph cluster_L59 {
+		node [rank=same]
+		rankdir=LR
+		L59B0 [label=Shared]
+		L59B1 [label=Specific]
+		L59B2 [label=Skip]
+	}
+	subgraph cluster_L60 {
+		node [rank=same]
+		rankdir=LR
+		L60B0 [label=Shared]
+		L60B1 [label=Specific]
+		L60B2 [label=Skip]
+	}
+	subgraph cluster_L61 {
+		node [rank=same]
+		rankdir=LR
+		L61B0 [label=Shared]
+		L61B1 [label=Specific]
+		L61B2 [label=Skip]
+	}
+	subgraph cluster_L62 {
+		node [rank=same]
+		rankdir=LR
+		L62B0 [label=Shared]
+		L62B1 [label=Specific]
+		L62B2 [label=Skip]
+	}
+	subgraph cluster_L63 {
+		node [rank=same]
+		rankdir=LR
+		L63B0 [label=Shared]
+		L63B1 [label=Specific]
+		L63B2 [label=Skip]
+	}
+	subgraph cluster_L64 {
+		node [rank=same]
+		rankdir=LR
+		L64B0 [label=Shared]
+		L64B1 [label=Specific]
+		L64B2 [label=Skip]
+	}
+	subgraph cluster_L65 {
+		node [rank=same]
+		rankdir=LR
+		L65B0 [label=Shared]
+		L65B1 [label=Specific]
+		L65B2 [label=Skip]
+	}
+	subgraph cluster_L66 {
+		node [rank=same]
+		rankdir=LR
+		L66B0 [label=Shared]
+		L66B1 [label=Specific]
+		L66B2 [label=Skip]
+	}
+	subgraph cluster_L67 {
+		node [rank=same]
+		rankdir=LR
+		L67B0 [label=Shared]
+		L67B1 [label=Specific]
+		L67B2 [label=Skip]
+	}
+	subgraph cluster_L68 {
+		node [rank=same]
+		rankdir=LR
+		L68B0 [label=Shared]
+		L68B1 [label=Specific]
+		L68B2 [label=Skip]
+	}
+	subgraph cluster_L69 {
+		node [rank=same]
+		rankdir=LR
+		L69B0 [label=Shared]
+		L69B1 [label=Specific]
+		L69B2 [label=Skip]
+	}
+	subgraph cluster_L70 {
+		node [rank=same]
+		rankdir=LR
+		L70B0 [label=Shared]
+		L70B1 [label=Specific]
+		L70B2 [label=Skip]
+	}
+	subgraph cluster_L71 {
+		node [rank=same]
+		rankdir=LR
+		L71B0 [label=Shared]
+		L71B1 [label=Specific]
+		L71B2 [label=Skip]
+	}
+	L0B0 -> L1B0 [color="#1f77b4"]
+	L1B0 -> L2B0 [color="#1f77b4"]
+	L2B0 -> L3B0 [color="#1f77b4"]
+	L3B0 -> L4B0 [color="#1f77b4"]
+	L4B0 -> L5B0 [color="#1f77b4"]
+	L5B0 -> L6B0 [color="#1f77b4"]
+	L6B0 -> L7B0 [color="#1f77b4"]
+	L7B0 -> L8B0 [color="#1f77b4"]
+	L8B0 -> L9B0 [color="#1f77b4"]
+	L9B0 -> L10B0 [color="#1f77b4"]
+	L10B0 -> L11B0 [color="#1f77b4"]
+	L11B0 -> L12B0 [color="#1f77b4"]
+	L12B0 -> L13B0 [color="#1f77b4"]
+	L13B0 -> L14B0 [color="#1f77b4"]
+	L14B0 -> L15B0 [color="#1f77b4"]
+	L15B0 -> L16B0 [color="#1f77b4"]
+	L16B0 -> L17B0 [color="#1f77b4"]
+	L17B0 -> L18B0 [color="#1f77b4"]
+	L18B0 -> L19B0 [color="#1f77b4"]
+	L19B0 -> L20B0 [color="#1f77b4"]
+	L20B0 -> L21B2 [color="#1f77b4"]
+	L21B2 -> L22B1 [color="#1f77b4"]
+	L22B1 -> L23B0 [color="#1f77b4"]
+	L23B0 -> L24B0 [color="#1f77b4"]
+	L24B0 -> L25B0 [color="#1f77b4"]
+	L25B0 -> L26B1 [color="#1f77b4"]
+	L26B1 -> L27B1 [color="#1f77b4"]
+	L27B1 -> L28B0 [color="#1f77b4"]
+	L28B0 -> L29B2 [color="#1f77b4"]
+	L29B2 -> L30B1 [color="#1f77b4"]
+	L30B1 -> L31B1 [color="#1f77b4"]
+	L31B1 -> L32B0 [color="#1f77b4"]
+	L32B0 -> L33B1 [color="#1f77b4"]
+	L33B1 -> L34B1 [color="#1f77b4"]
+	L34B1 -> L35B2 [color="#1f77b4"]
+	L35B2 -> L36B0 [color="#1f77b4"]
+	L36B0 -> L37B0 [color="#1f77b4"]
+	L37B0 -> L38B0 [color="#1f77b4"]
+	L38B0 -> L39B0 [color="#1f77b4"]
+	L39B0 -> L40B0 [color="#1f77b4"]
+	L40B0 -> L41B0 [color="#1f77b4"]
+	L41B0 -> L42B0 [color="#1f77b4"]
+	L42B0 -> L43B0 [color="#1f77b4"]
+	L43B0 -> L44B0 [color="#1f77b4"]
+	L44B0 -> L45B0 [color="#1f77b4"]
+	L45B0 -> L46B0 [color="#1f77b4"]
+	L46B0 -> L47B0 [color="#1f77b4"]
+	L47B0 -> L48B0 [color="#1f77b4"]
+	L48B0 -> L49B0 [color="#1f77b4"]
+	L49B0 -> L50B0 [color="#1f77b4"]
+	L50B0 -> L51B0 [color="#1f77b4"]
+	L51B0 -> L52B0 [color="#1f77b4"]
+	L52B0 -> L53B0 [color="#1f77b4"]
+	L53B0 -> L54B0 [color="#1f77b4"]
+	L54B0 -> L55B0 [color="#1f77b4"]
+	L55B0 -> L56B0 [color="#1f77b4"]
+	L56B0 -> L57B2 [color="#1f77b4"]
+	L57B2 -> L58B1 [color="#1f77b4"]
+	L58B1 -> L59B0 [color="#1f77b4"]
+	L59B0 -> L60B0 [color="#1f77b4"]
+	L60B0 -> L61B0 [color="#1f77b4"]
+	L61B0 -> L62B1 [color="#1f77b4"]
+	L62B1 -> L63B1 [color="#1f77b4"]
+	L63B1 -> L64B0 [color="#1f77b4"]
+	L64B0 -> L65B2 [color="#1f77b4"]
+	L65B2 -> L66B1 [color="#1f77b4"]
+	L66B1 -> L67B1 [color="#1f77b4"]
+	L67B1 -> L68B0 [color="#1f77b4"]
+	L68B0 -> L69B1 [color="#1f77b4"]
+	L69B1 -> L70B1 [color="#1f77b4"]
+	L70B1 -> L71B2 [color="#1f77b4"]
+	L0B0 -> L1B0 [color="#ff7f0e"]
+	L1B0 -> L2B0 [color="#ff7f0e"]
+	L2B0 -> L3B0 [color="#ff7f0e"]
+	L3B0 -> L4B0 [color="#ff7f0e"]
+	L4B0 -> L5B0 [color="#ff7f0e"]
+	L5B0 -> L6B0 [color="#ff7f0e"]
+	L6B0 -> L7B0 [color="#ff7f0e"]
+	L7B0 -> L8B0 [color="#ff7f0e"]
+	L8B0 -> L9B0 [color="#ff7f0e"]
+	L9B0 -> L10B0 [color="#ff7f0e"]
+	L10B0 -> L11B0 [color="#ff7f0e"]
+	L11B0 -> L12B0 [color="#ff7f0e"]
+	L12B0 -> L13B0 [color="#ff7f0e"]
+	L13B0 -> L14B0 [color="#ff7f0e"]
+	L14B0 -> L15B0 [color="#ff7f0e"]
+	L15B0 -> L16B0 [color="#ff7f0e"]
+	L16B0 -> L17B0 [color="#ff7f0e"]
+	L17B0 -> L18B0 [color="#ff7f0e"]
+	L18B0 -> L19B0 [color="#ff7f0e"]
+	L19B0 -> L20B1 [color="#ff7f0e"]
+	L20B1 -> L21B0 [color="#ff7f0e"]
+	L21B0 -> L22B2 [color="#ff7f0e"]
+	L22B2 -> L23B2 [color="#ff7f0e"]
+	L23B2 -> L24B2 [color="#ff7f0e"]
+	L24B2 -> L25B0 [color="#ff7f0e"]
+	L25B0 -> L26B1 [color="#ff7f0e"]
+	L26B1 -> L27B2 [color="#ff7f0e"]
+	L27B2 -> L28B0 [color="#ff7f0e"]
+	L28B0 -> L29B2 [color="#ff7f0e"]
+	L29B2 -> L30B0 [color="#ff7f0e"]
+	L30B0 -> L31B1 [color="#ff7f0e"]
+	L31B1 -> L32B1 [color="#ff7f0e"]
+	L32B1 -> L33B1 [color="#ff7f0e"]
+	L33B1 -> L34B1 [color="#ff7f0e"]
+	L34B1 -> L35B2 [color="#ff7f0e"]
+	L35B2 -> L36B0 [color="#ff7f0e"]
+	L36B0 -> L37B0 [color="#ff7f0e"]
+	L37B0 -> L38B0 [color="#ff7f0e"]
+	L38B0 -> L39B0 [color="#ff7f0e"]
+	L39B0 -> L40B0 [color="#ff7f0e"]
+	L40B0 -> L41B0 [color="#ff7f0e"]
+	L41B0 -> L42B0 [color="#ff7f0e"]
+	L42B0 -> L43B0 [color="#ff7f0e"]
+	L43B0 -> L44B0 [color="#ff7f0e"]
+	L44B0 -> L45B0 [color="#ff7f0e"]
+	L45B0 -> L46B0 [color="#ff7f0e"]
+	L46B0 -> L47B0 [color="#ff7f0e"]
+	L47B0 -> L48B0 [color="#ff7f0e"]
+	L48B0 -> L49B0 [color="#ff7f0e"]
+	L49B0 -> L50B0 [color="#ff7f0e"]
+	L50B0 -> L51B0 [color="#ff7f0e"]
+	L51B0 -> L52B0 [color="#ff7f0e"]
+	L52B0 -> L53B0 [color="#ff7f0e"]
+	L53B0 -> L54B0 [color="#ff7f0e"]
+	L54B0 -> L55B0 [color="#ff7f0e"]
+	L55B0 -> L56B1 [color="#ff7f0e"]
+	L56B1 -> L57B0 [color="#ff7f0e"]
+	L57B0 -> L58B2 [color="#ff7f0e"]
+	L58B2 -> L59B2 [color="#ff7f0e"]
+	L59B2 -> L60B2 [color="#ff7f0e"]
+	L60B2 -> L61B0 [color="#ff7f0e"]
+	L61B0 -> L62B1 [color="#ff7f0e"]
+	L62B1 -> L63B2 [color="#ff7f0e"]
+	L63B2 -> L64B0 [color="#ff7f0e"]
+	L64B0 -> L65B2 [color="#ff7f0e"]
+	L65B2 -> L66B0 [color="#ff7f0e"]
+	L66B0 -> L67B1 [color="#ff7f0e"]
+	L67B1 -> L68B1 [color="#ff7f0e"]
+	L68B1 -> L69B1 [color="#ff7f0e"]
+	L69B1 -> L70B1 [color="#ff7f0e"]
+	L70B1 -> L71B2 [color="#ff7f0e"]
+	L0B0 -> L1B0 [color="#2ca02c"]
+	L1B0 -> L2B0 [color="#2ca02c"]
+	L2B0 -> L3B0 [color="#2ca02c"]
+	L3B0 -> L4B0 [color="#2ca02c"]
+	L4B0 -> L5B0 [color="#2ca02c"]
+	L5B0 -> L6B0 [color="#2ca02c"]
+	L6B0 -> L7B0 [color="#2ca02c"]
+	L7B0 -> L8B0 [color="#2ca02c"]
+	L8B0 -> L9B0 [color="#2ca02c"]
+	L9B0 -> L10B0 [color="#2ca02c"]
+	L10B0 -> L11B0 [color="#2ca02c"]
+	L11B0 -> L12B0 [color="#2ca02c"]
+	L12B0 -> L13B0 [color="#2ca02c"]
+	L13B0 -> L14B0 [color="#2ca02c"]
+	L14B0 -> L15B0 [color="#2ca02c"]
+	L15B0 -> L16B0 [color="#2ca02c"]
+	L16B0 -> L17B0 [color="#2ca02c"]
+	L17B0 -> L18B0 [color="#2ca02c"]
+	L18B0 -> L19B0 [color="#2ca02c"]
+	L19B0 -> L20B0 [color="#2ca02c"]
+	L20B0 -> L21B0 [color="#2ca02c"]
+	L21B0 -> L22B1 [color="#2ca02c"]
+	L22B1 -> L23B0 [color="#2ca02c"]
+	L23B0 -> L24B1 [color="#2ca02c"]
+	L24B1 -> L25B2 [color="#2ca02c"]
+	L25B2 -> L26B0 [color="#2ca02c"]
+	L26B0 -> L27B2 [color="#2ca02c"]
+	L27B2 -> L28B1 [color="#2ca02c"]
+	L28B1 -> L29B2 [color="#2ca02c"]
+	L29B2 -> L30B1 [color="#2ca02c"]
+	L30B1 -> L31B2 [color="#2ca02c"]
+	L31B2 -> L32B0 [color="#2ca02c"]
+	L32B0 -> L33B0 [color="#2ca02c"]
+	L33B0 -> L34B1 [color="#2ca02c"]
+	L34B1 -> L35B2 [color="#2ca02c"]
+	L35B2 -> L36B0 [color="#2ca02c"]
+	L36B0 -> L37B0 [color="#2ca02c"]
+	L37B0 -> L38B0 [color="#2ca02c"]
+	L38B0 -> L39B0 [color="#2ca02c"]
+	L39B0 -> L40B0 [color="#2ca02c"]
+	L40B0 -> L41B0 [color="#2ca02c"]
+	L41B0 -> L42B0 [color="#2ca02c"]
+	L42B0 -> L43B0 [color="#2ca02c"]
+	L43B0 -> L44B0 [color="#2ca02c"]
+	L44B0 -> L45B0 [color="#2ca02c"]
+	L45B0 -> L46B0 [color="#2ca02c"]
+	L46B0 -> L47B0 [color="#2ca02c"]
+	L47B0 -> L48B0 [color="#2ca02c"]
+	L48B0 -> L49B0 [color="#2ca02c"]
+	L49B0 -> L50B0 [color="#2ca02c"]
+	L50B0 -> L51B0 [color="#2ca02c"]
+	L51B0 -> L52B0 [color="#2ca02c"]
+	L52B0 -> L53B0 [color="#2ca02c"]
+	L53B0 -> L54B0 [color="#2ca02c"]
+	L54B0 -> L55B0 [color="#2ca02c"]
+	L55B0 -> L56B0 [color="#2ca02c"]
+	L56B0 -> L57B0 [color="#2ca02c"]
+	L57B0 -> L58B1 [color="#2ca02c"]
+	L58B1 -> L59B0 [color="#2ca02c"]
+	L59B0 -> L60B1 [color="#2ca02c"]
+	L60B1 -> L61B2 [color="#2ca02c"]
+	L61B2 -> L62B0 [color="#2ca02c"]
+	L62B0 -> L63B2 [color="#2ca02c"]
+	L63B2 -> L64B1 [color="#2ca02c"]
+	L64B1 -> L65B2 [color="#2ca02c"]
+	L65B2 -> L66B1 [color="#2ca02c"]
+	L66B1 -> L67B2 [color="#2ca02c"]
+	L67B2 -> L68B0 [color="#2ca02c"]
+	L68B0 -> L69B0 [color="#2ca02c"]
+	L69B0 -> L70B1 [color="#2ca02c"]
+	L70B1 -> L71B2 [color="#2ca02c"]
+}

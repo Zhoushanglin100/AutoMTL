@@ -1,0 +1,226 @@
+# define prune ratios for your network
+prune_ratios:
+
+  # headsDict.segment_semantic.fc1.conv1.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc1.conv2.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc1.conv3.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc2.conv1.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc2.conv2.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc2.conv3.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc3.conv1.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc3.conv2.weight: 
+  #   0.99
+  # headsDict.segment_semantic.fc3.conv3.weight: 
+  #   0.99
+  # # headsDict.segment_semantic.fc4.conv1.weight: 
+  # #   0.99
+  # # headsDict.segment_semantic.fc4.conv2.weight: 
+  # #   0.99
+  # # headsDict.segment_semantic.fc4.conv3.weight: 
+  # #   0.99
+
+  # headsDict.depth_zbuffer.fc1.conv1.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc1.conv2.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc1.conv3.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc2.conv1.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc2.conv2.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc2.conv3.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc3.conv1.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc3.conv2.weight: 
+  #   0.99
+  # headsDict.depth_zbuffer.fc3.conv3.weight: 
+  #   0.99
+  # # headsDict.depth_zbuffer.fc4.conv1.weight: 
+  # #   0.99
+  # # headsDict.depth_zbuffer.fc4.conv2.weight: 
+  # #   0.99
+  # # headsDict.depth_zbuffer.fc4.conv3.weight: 
+  # #   0.99
+
+  # net.0.taskOp.segment_semantic.weight: 
+  #   0.99
+  # net.0.taskOp.depth_zbuffer.weight: 
+  #   0.99
+  # net.0.dsOp.segment_semantic.0.weight: 
+  #   0.99
+  # net.0.dsOp.depth_zbuffer.0.weight: 
+  #   0.99
+
+  net.4.taskOp.segment_semantic.weight: 
+    0.99
+  net.4.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.7.taskOp.segment_semantic.weight: 
+    0.99
+  net.7.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.11.taskOp.segment_semantic.weight: 
+    0.99
+  net.11.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.14.taskOp.segment_semantic.weight: 
+    0.99
+  net.14.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.18.taskOp.segment_semantic.weight: 
+    0.99
+  net.18.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.21.taskOp.segment_semantic.weight: 
+    0.99
+  net.21.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.25.taskOp.segment_semantic.weight: 
+    0.99
+  net.25.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.25.dsOp.segment_semantic.0.weight: 
+    0.99
+  net.25.dsOp.depth_zbuffer.0.weight: 
+    0.99
+  net.27.taskOp.segment_semantic.weight: 
+    0.99
+  net.27.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.27.dsOp.segment_semantic.0.weight: 
+    0.99
+  net.27.dsOp.depth_zbuffer.0.weight: 
+    0.99
+  net.30.taskOp.segment_semantic.weight: 
+    0.99
+  net.30.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.34.taskOp.segment_semantic.weight: 
+    0.99
+  net.34.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.37.taskOp.segment_semantic.weight: 
+    0.99
+  net.37.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.41.taskOp.segment_semantic.weight: 
+    0.99
+  net.41.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.44.taskOp.segment_semantic.weight: 
+    0.99
+  net.44.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.48.taskOp.segment_semantic.weight: 
+    0.99
+  net.48.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.51.taskOp.segment_semantic.weight: 
+    0.99
+  net.51.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.55.taskOp.segment_semantic.weight: 
+    0.99
+  net.55.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.55.dsOp.segment_semantic.0.weight: 
+    0.99
+  net.55.dsOp.depth_zbuffer.0.weight: 
+    0.99
+  net.57.taskOp.segment_semantic.weight: 
+    0.99
+  net.57.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.57.dsOp.segment_semantic.0.weight: 
+    0.99
+  net.57.dsOp.depth_zbuffer.0.weight: 
+    0.99
+  net.60.taskOp.segment_semantic.weight: 
+    0.99
+  net.60.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.64.taskOp.segment_semantic.weight: 
+    0.99
+  net.64.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.67.taskOp.segment_semantic.weight: 
+    0.99
+  net.67.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.71.taskOp.segment_semantic.weight: 
+    0.99
+  net.71.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.74.taskOp.segment_semantic.weight: 
+    0.99
+  net.74.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.78.taskOp.segment_semantic.weight: 
+    0.99
+  net.78.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.81.taskOp.segment_semantic.weight: 
+    0.99
+  net.81.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.85.taskOp.segment_semantic.weight: 
+    0.99
+  net.85.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.88.taskOp.segment_semantic.weight: 
+    0.99
+  net.88.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.92.taskOp.segment_semantic.weight: 
+    0.99
+  net.92.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.95.taskOp.segment_semantic.weight: 
+    0.99
+  net.95.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.99.taskOp.segment_semantic.weight: 
+    0.99
+  net.99.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.99.dsOp.segment_semantic.0.weight: 
+    0.99
+  net.99.dsOp.depth_zbuffer.0.weight: 
+    0.99
+  net.101.taskOp.segment_semantic.weight: 
+    0.99
+  net.101.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.101.dsOp.segment_semantic.0.weight: 
+    0.99
+  net.101.dsOp.depth_zbuffer.0.weight: 
+    0.99
+  net.104.taskOp.segment_semantic.weight: 
+    0.99
+  net.104.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.108.taskOp.segment_semantic.weight: 
+    0.99
+  net.108.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.111.taskOp.segment_semantic.weight: 
+    0.99
+  net.111.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.115.taskOp.segment_semantic.weight: 
+    0.99
+  net.115.taskOp.depth_zbuffer.weight: 
+    0.99
+  net.118.taskOp.segment_semantic.weight: 
+    0.99
+  net.118.taskOp.depth_zbuffer.weight: 
+    0.99
